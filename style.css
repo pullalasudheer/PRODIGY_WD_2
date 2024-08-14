@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+#display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapList li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
